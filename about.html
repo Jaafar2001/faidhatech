@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .aboutus {
+        padding: 20px 0;
+      }
+
+      .about-grid {
+        display: grid;
+        gap: 20px;
+        justify-items: center;
+        text-align: center;
+      }
+
+      .about {
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 100%;
+      }
+
+      .about h2 {
+        font-size: 2rem;
+      }
+
+      .about ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .about ul li {
+        margin-bottom: 10px;
+      }
+
+      .about p {
+        margin-top: 10px;
+      }
+
+      @media (min-width: 768px) {
+        .about-grid {
+          grid-template-columns: 1fr 1fr;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="aboutus">
+      <div class="container about-grid">
+        <div class="about">
+          <h2 class="text-center text-primary">Why Choose Faidhatech?</h2>
+          <ul>
+            <li>
+              Affordability: We provide online solutions at the most competitive
+              prices.
+            </li>
+            <li>
+              Accessibility: Our contact numbers, emails, and ticketing system
+              are available 24/7.
+            </li>
+            <li>
+              Reliability: Testimonials from satisfied clients speak to our
+              trustworthiness:
+            </li>
+          </ul>
+          <p class="text-center">
+            Shamsudeen: “Faidhatech is good, reliable, and trustworthy.”
+          </p>
+          <p class="text-center">
+            Hamza Yusuf Umar: “Their service is efficient and fast.”
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
